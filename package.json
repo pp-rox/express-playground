@@ -1,0 +1,19 @@
+{
+  "name": "express-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pp-rox/express-playground.git"
+  },
+  "author": "Roxanne P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pp-rox/express-playground/issues"
+  },
+  "homepage": "https://github.com/pp-rox/express-playground#readme"
+}
