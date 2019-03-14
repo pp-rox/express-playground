@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/pp-rox/express-playground/issues"
   },
-  "homepage": "https://github.com/pp-rox/express-playground#readme"
+  "homepage": "https://github.com/pp-rox/express-playground#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "underscore": "^1.9.1"
+  }
 }
