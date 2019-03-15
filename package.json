@@ -1,27 +1,22 @@
 {
-  "name": "express-playground",
+  "name": "sio-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A sample socket io server",
+  "main": "sio-server.js",
   "scripts": {
-    "test": "test"
+    "start": "open http://localhost:3000 & node sio-server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pp-rox/express-playground.git"
-  },
-  "author": "Roxanne P",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pp-rox/express-playground/issues"
-  },
-  "homepage": "https://github.com/pp-rox/express-playground#readme",
+  "keywords": [
+    "Socket",
+    "IO",
+    "Simple",
+    "Sample"
+  ],
+  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "socket.io": "^2.2.0",
-    "underscore": "^1.9.1",
-    "ws": "^6.2.0"
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7"
   }
 }
